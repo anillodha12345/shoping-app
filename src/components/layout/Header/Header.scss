@@ -1,0 +1,222 @@
+.navbar-brand {
+  width: 20%;
+}
+.header_bar {
+  padding: 0px !important;
+}
+.list_style {
+  list-style-type: none;
+}
+.Navbar_width {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.price_quatity_show {
+ align-items: center;
+     background-color: #ff7d19;
+     border-radius: 50%;
+     color: white;
+     display: flex;
+     font-size: 0.6rem;
+     height: 20px;
+     justify-content: center;
+     position: absolute;
+     right: 166px;
+     top: -12px;
+     width: 20px;
+}
+.dropbtn {
+  color: black;
+  background-color: white;
+
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 0px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 200px;
+}
+.sigin:hover {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+}
+.dropdown-content a:hover {
+
+  position: absolute;
+  background-color: #333;
+  min-width: 0px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 200px;
+}
+.card_button {
+  padding: 0px !important;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  // background-color: red;
+}
+.add_to_cards {
+  width: 100%;
+
+}
+.dropdown-content:hover {
+  background-color: #333;
+  color: white;
+}
+
+
+
+
+.Navbar_width {
+  padding: 16px !important;
+
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+.admin {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #e7f3f7;
+  font-size: 24px;
+  background-color: #333;
+}
+.carousel .control-dots {
+  bottom: 0;
+  display: none;
+}
+
+@media only screen and (max-width: 1199px) {
+  .price_quatity_show {
+    align-items: center;
+    background-color: #ff7d19;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 0.6rem;
+    height: 20px;
+    justify-content: center;
+    position: absolute;
+    right: 129px;
+    top: -12px;
+    width: 20px;
+  }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .navbar_section {
+    padding: 0px !important;
+  }
+} /* 768 */
+@media only screen and (max-width: 767px) {
+  .header-bar {
+    display: grid;
+    grid-template-columns: 30%;
+  }
+    .navbar-nav {
+      display: flex;
+      flex-direction: row !important;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      padding-left: 12px;
+    }
+      .navbar-brand {
+        width: 20%;
+      }
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .navbar-brand {
+    display: flex;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 33% !important;
+    /* height: 41px; */
+    }
+
+.Navbar_width {
+  padding: 10px !important; 
+}
+
+} /* 480 */
+@media only screen and (max-width: 479px) {
+   .navbar-brand {
+   display: flex;
+   padding-top: 0.3125rem;
+   padding-bottom: 0.3125rem;
+   margin-right: 1rem;
+   font-size: 1.25rem;
+   line-height: inherit;
+   white-space: nowrap;
+   padding: 5px !important; 
+   margin: 5px !important;
+   width: 80% !important;
+   /* height: 41px; */
+   }
+  .Navbar_width {
+  padding: 0px !important;
+  
+}
+.navbar-brand {
+  margin-left: 27px !important;
+}
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .navbar-brand {
+display: flex;
+padding-top: 0.3125rem;
+padding-bottom: 0.3125rem;
+margin-right: 1rem;
+font-size: 1.25rem;
+line-height: inherit;
+white-space: nowrap;
+padding: 5px !important;
+margin: 5px !important;
+width: 80% !important;
+/* height: 41px; */
+}
+  .Navbar_width {
+  padding: 10px !important;
+  
+}
+
+
+
+
+} /* 320 */
+
+ 

@@ -1,0 +1,143 @@
+.product-price-font {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-family: inherit;
+}
+.buy {
+  display: flex;
+}
+
+.buy_now {
+  background-color: #e40046 !important;
+}
+.add_to_card {
+  margin: 0px 30px 0px 0px;
+  width: 33%;
+}
+
+.discount {
+  border: 1px solid silver;
+  margin: 15px;
+  color: silver;
+  border-radius: 1px;
+  padding: 3px;
+}
+.select_size {
+  padding: 8px;
+}
+
+.carousel.carousel-slider {
+  height: 350px;
+  width: '100%';
+}
+
+@media only screen and (max-width: 1199px) {
+  .carousel.carousel-slider {
+    height: 290px;
+  }
+  .add_to_card {
+  margin: 0px 30px 0px 0px;
+  width:173px ;
+}
+
+  // .add_to_card {
+    // margin: 0px 30px 0px 0px;
+    // width: 175px;
+  // }
+} /* 1024 */
+@media only screen and (max-width: 1023px) {
+  .discription {
+    font-size: 21px;
+  }
+   .add_to_card {
+   margin: 0px 30px 0px 0px;
+   width: 175px;
+   }
+ 
+  // 
+} /* 980 */
+@media only screen and (max-width: 979px) {
+  .discription {
+  font-size: 15px;
+}
+.add_to_card {
+margin: 0px 30px 0px 0px;
+width: 175px;
+}
+.carousel.carousel-slider {
+  height: 213px;
+}
+.ADD_TO_CARD {
+  font-size: 15px;
+  margin-top:20px ;
+}
+.BUY_NOW {
+font-size: 15px;
+ margin-top:20px ;
+}
+
+} /* 768 */
+@media only screen and (max-width: 767px) {
+} /* 650 */
+@media only screen and (max-width: 649px) {
+  .ADD_TO_CARD {
+font-size: 5px;
+margin-top:20px ;
+  }
+.BUY_NOW {
+font-size: 5px;
+margin-top:20px ;
+ }
+} /* 480 */
+@media only screen and (max-width: 479px) {
+  .ADD_TO_CARD {
+font-size: 5px;
+margin-top:20px ;
+  }
+.BUY_NOW {
+font-size: 5px;
+margin-top:20px ;
+ }
+} /* 375 */
+@media only screen and (max-width: 374px) {
+  .ADD_TO_CARD {
+  font-size: 5px;
+  margin-top:20px ;
+    }
+  .BUY_NOW {
+  font-size: 5px;
+  margin-top:20px ;
+   }
+   .carousel .control-next.control-arrow:before {
+    border-left: 8px solid white;
+    position: absolute;
+    top: -181px;
+    left: -14px;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #fff;
+    position: absolute;
+    top: 77px;
+}
+.carousel.carousel-slider .control-arrow {
+    top: 0;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    margin-top: 0;
+    /* padding: 5px; */
+}
+.carousel.carousel-slider .control-arrow:hover {
+   background-color: none !important;
+}
+
+
+
+} /* 320 */
+
+
+
+
+
+
